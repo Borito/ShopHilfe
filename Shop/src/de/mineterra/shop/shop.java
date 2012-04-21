@@ -84,7 +84,11 @@ public class shop extends JavaPlugin{
 	        }
 	        if (args[0].equalsIgnoreCase("paystand"))
 	        {
-	        	//Econ System
+	        	
+	        	//TODO Group Promote Einfügen!
+	        	
+	        	
+	        	//Econ System	        	        	
 	        	EconomyResponse r = econ.withdrawPlayer(p.getName(), 100.0);
 	        	if(r.transactionSuccess()) {
 	        		sender.sendMessage(String.format(ChatColor.GREEN + "Die Gebühr in höhe von" + ChatColor.AQUA + " 100Y " + ChatColor.GREEN + "wurde bezahlt!"));
@@ -97,6 +101,10 @@ public class shop extends JavaPlugin{
 	        }
 	        if (args[0].equalsIgnoreCase("payhaus"))
 	        {
+	        	
+	        	//TODO Group Promote Einfügen!
+	        	
+	        	
 	        	//Econ System
 	        	EconomyResponse r = econ.withdrawPlayer(p.getName(), 450.0);
 	        	if(r.transactionSuccess()) {
