@@ -1,0 +1,8 @@
+name: Shop Hilfe
+main: de.mineterra.shop.shop
+version: 1.0
+author: mineterra.de
+commands:
+     shop:
+        description: Zeigt dir das Hilfe Menue an.
+        usage: /<command> [hilfe] [paystand] [payhaus]
